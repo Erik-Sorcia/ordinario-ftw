@@ -10,9 +10,9 @@
 
     <header>
         <div class="navegacion">
-            <a href="inicio.html" class="logo">MotoShock</a>
+            <a href="index.html" class="logo">MotoShock</a>
             <ul class="menu">
-                <li><a href="inicio.html">Inicio</a></li>
+                <li><a href="index.html">Inicio</a></li>
                 <li><a href="catalogo.html">Catálogo</a></li>
                 <li><a href="marcas.html">Marcas</a></li>
                 <li><a href="refacciones.html">Refacciones</a></li>
@@ -35,15 +35,15 @@
         <section class="formulario-seccion formulario-tarjeta">
             <h2>Envíanos un Mensaje</h2>
             <br>
-            <form onsubmit="return false;">
+            <form onsubmit="alert('¡Mensaje enviado con éxito!'); location.href='index.html'; return false;">
                 <label>Nombre Completo:</label>
-                <input type="text" placeholder="Ej. Erik Sorcia">
+                <input type="text" placeholder="Ej. Erik Sorcia" required>
 
                 <label>Correo Electrónico:</label>
-                <input type="email" placeholder="ejemplo@correo.com">
+                <input type="email" placeholder="ejemplo@correo.com" required>
 
                 <label>Mensaje o Cotización:</label>
-                <textarea rows="4" placeholder="¿En qué modelo o refacción estás interesado?"></textarea>
+                <textarea rows="4" placeholder="¿En qué modelo o refacción estás interesado?" required></textarea>
 
                 <button type="submit">Enviar Mensaje</button>
             </form>

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MotoShock | Detalles</title>
+    <title>MotoShock | Checkout</title>
     <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
@@ -24,16 +24,20 @@
     </header>
 
     <main>
-        <section class="formulario-seccion detalle-tarjeta-ancho">
-            <h1 id="moto-nombre">Cargando especificaciones...</h1>
-            <br>
-            <img id="moto-imagen" src="" alt="" class="moto-imagen-grandes">
-            
-            <div id="ficha-tecnica-contenedor" class="ficha-tecnica-bloque">
-                </div>
+        <section class="formulario-seccion formulario-tarjeta">
+            <h1 id="checkout-nombre">Procesando...</h1>
+            <img id="checkout-imagen" src="" alt="" class="moto-imagen-grandes">
+            <p id="checkout-precio" class="precio-grande-ficha"></p>
 
-            <h2 id="moto-precio" class="precio-grande-ficha">$0.00</h2>
-            <button id="btn-comprar-ficha">Proceder a la Compra</button>
+            <form id="formulario-finalizar">
+                <label>Nombre:</label>
+                <input type="text" placeholder="ej. Juan Rojas" required>
+
+                <label>Numero de telefono:</label>
+                <input type="text" placeholder="Teléfono" required>
+
+                <button type="submit">Finalizar Compra</button>
+            </form>
         </section>
     </main>
 
@@ -41,6 +45,6 @@
         <p>© 2026 MotoShock | Facultad de Estadística e Informática - UV</p>
     </footer>
 
-    <script src="detalles.js"></script>
+    <script src="compra.js"></script>
 </body>
 </html>

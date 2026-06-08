@@ -10,9 +10,9 @@
 
     <header>
         <div class="navegacion">
-            <a href="inicio.html" class="logo">MotoShock</a>
+            <a href="index.html" class="logo">MotoShock</a>
             <ul class="menu">
-                <li><a href="inicio.html">Inicio</a></li>
+                <li><a href="index.html">Inicio</a></li>
                 <li><a href="catalogo.html">Catálogo</a></li>
                 <li><a href="marcas.html" class="activo">Marcas</a></li>
                 <li><a href="refacciones.html">Refacciones</a></li>
@@ -26,38 +26,42 @@
     <main>
         <section class="introduccion-marcas">
             <h1>Marcas Disponibles</h1>
-            <p>Explora la historia y la ingeniería de los cuatro gigantes del motociclismo japonés.</p>
+            <p>Explora la ingeniería y potencia de los cuatro gigantes del motociclismo mundial.</p>
         </section>
 
-        <section class="lista-marcas">
-            <div class="cuadros-motos">
+        <section>
+            <div class="grid-marcas-interactivas">
                 
-                <div class="tarjeta-moto">
-                    <div class="tarjeta-info">
-                        <h3>Honda</h3>
-                        <p>El fabricante número uno del mundo, conocido por su durabilidad y motores legendarios.</p>
+                <div class="bloque-marca-interactivo" onclick="location.href='catalogo.html?marca=Honda'">
+                    <div class="logo-marca-contenedor">
+                        <img src="img/honda.png" alt="Honda">
                     </div>
+                    <h3>Honda</h3>
+                    <p>Fiabilidad legendaria, motores eficientes y dominio absoluto urbano.</p>
                 </div>
 
-                <div class="tarjeta-moto">
-                    <div class="tarjeta-info">
-                        <h3>Yamaha</h3>
-                        <p>Innovación pura y espíritu deportivo. Creadores de la famosa línea de alto rendimiento R.</p>
+                <div class="bloque-marca-interactivo" onclick="location.href='catalogo.html?marca=Yamaha'">
+                    <div class="logo-marca-contenedor">
+                        <img src="img/yamaha.png" alt="Yamaha">
                     </div>
+                    <h3>Yamaha</h3>
+                    <p>Espíritu deportivo, innovación radical y par motor de alta competencia.</p>
                 </div>
 
-                <div class="tarjeta-moto">
-                    <div class="tarjeta-info">
-                        <h3>Suzuki</h3>
-                        <p>Ingeniería eficiente y confiable. Domina tanto las calles urbanas como las pistas de carrera.</p>
+                <div class="bloque-marca-interactivo" onclick="location.href='catalogo.html?marca=Suzuki'">
+                    <div class="logo-marca-contenedor">
+                        <img src="img/suzuki.png" alt="Suzuki">
                     </div>
+                    <h3>Suzuki</h3>
+                    <p>Ingeniería compacta, excelente relación peso-potencia y alta durabilidad.</p>
                 </div>
 
-                <div class="tarjeta-moto">
-                    <div class="tarjeta-info">
-                        <h3>Kawasaki</h3>
-                        <p>Poder absoluto y diseño radical. Famosos mundialmente por su icónico color verde y su línea Ninja.</p>
+                <div class="bloque-marca-interactivo" onclick="location.href='catalogo.html?marca=Kawasaki'">
+                    <div class="logo-marca-contenedor">
+                        <img src="img/kawasaki.png" alt="Kawasaki">
                     </div>
+                    <h3>Kawasaki</h3>
+                    <p>Poder puro, rendimiento de pista extremo y el mítico legado Ninja.</p>
                 </div>
 
             </div>
