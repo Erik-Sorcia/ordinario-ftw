@@ -1,0 +1,15 @@
+PROMPTs
+
+PROMPT para creación del archivo de datos.xml
+Desarrolla un archivo XML que funcione como una base de datos local para un proyecto web de una tienda de motos llamada 'MotoShock'. 
+
+La estructura debe tener un nodo principal llamado <concesionaria> y dividirse en tres apartados obligatorios:  Una sección de <motos> donde cada <moto> lleve un número de ID único. Adentro de cada moto se deben guardar estos campos con los datos técnicos: <marca>, <modelo>, <tipo>, <precio>, <cilindrada>, <motor>, <frenos>, <tanque>, <imagen> y el campo <destacada> para ponerle 'si' o 'no'.  Una sección de <refacciones> donde use el nodo <item> con su ID, y adentro guarde los campos de <marca>, <nombre> de la pieza, <compatibilidad> para saber a qué moto le queda, el <precio> y la <imagen>.  Una sección de <accesorios> que también use nodos <item> con su ID, y adentro lleve los campos de <nombre> del accesorio, su <tipo> (como protección o seguridad), su <precio> y su <imagen>
+
+
+PROMPT para el diseño
+
+Diseña el mockup y la estructura visual de una tienda de motos llamada 'MotoShock'.  Que tenga un diseño oscuro con fondo negro o gris muy oscuro, y que use colores azul y cian para los botones, enlaces y cosas interactivas para que resalte.
+El diseño debe incluir
+Una barra de navegación arriba con el logo de la tienda a la izquierda y el menú con los enlaces a las demás páginas a la derecha.
+Un banner de bienvenida centrado en medio de la pantalla que tenga un título grande, un eslogan llamativo sobre motocicletas japonesas y un botón principal para explorar el inventario.
+El contenido principal debe cerrar con una sección para mostrar un máximo de 3 tarjetas de motos destacadas,  acomodadas de forma limpia con su foto, marca, modelo, precio y un botón individual para ver su ficha técnica
